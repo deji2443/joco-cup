@@ -79,7 +79,7 @@ function custom_bootstrap_slider() {
 	register_post_type( 'slider', $args );
 }
 
-
+//PDF Plugin on myorder/order page
 add_filter('woocommerce_account_orders_columns', 'add_custom_account_orders_column', 10, 1);
 function add_custom_account_orders_column($columns)
 {
