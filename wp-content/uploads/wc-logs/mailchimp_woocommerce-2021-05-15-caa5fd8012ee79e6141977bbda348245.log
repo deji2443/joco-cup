@@ -1,0 +1,232 @@
+2021-05-15T01:23:05+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 609f1b7267c09
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 1b25672afe
+            [name] => JOCO cups
+            [domain] => http://localhost/joco-cups
+            [email_address] => abitech4real@gmail.com
+            [currency_code] => USD
+            [money_format] => $
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 08143206779
+            [address] => Array
+                (
+                    [address1] => 854 Avocado Ave
+                    [city] => Newport Beach
+                    [province] => CA
+                    [postal_code] => 92660
+                    [country] => US
+                    [country_code] => US
+                    [phone] => 08143206779
+                    [company] => JOCO cups
+                )
+
+        )
+
+)
+
+2021-05-15T01:23:13+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 609f1b7267c09
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 1b25672afe
+            [name] => JOCO cups
+            [domain] => http://localhost/joco-cups
+            [email_address] => abitech4real@gmail.com
+            [currency_code] => USD
+            [money_format] => $
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 08143206779
+            [address] => Array
+                (
+                    [address1] => 854 Avocado Ave
+                    [city] => Newport Beach
+                    [province] => CA
+                    [postal_code] => 92660
+                    [country] => US
+                    [country_code] => US
+                    [phone] => 08143206779
+                    [company] => JOCO cups
+                )
+
+        )
+
+)
+
+2021-05-15T01:23:19+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 609f1b7267c09
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 1b25672afe
+            [name] => JOCO cups
+            [domain] => http://localhost/joco-cups
+            [email_address] => abitech4real@gmail.com
+            [currency_code] => USD
+            [money_format] => $
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 08143206779
+            [address] => Array
+                (
+                    [address1] => 854 Avocado Ave
+                    [city] => Newport Beach
+                    [province] => CA
+                    [postal_code] => 92660
+                    [country] => US
+                    [country_code] => US
+                    [phone] => 08143206779
+                    [company] => JOCO cups
+                )
+
+        )
+
+)
+
+2021-05-15T01:23:25+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Sat, May 15, 2021 1:23 AM
+2021-05-15T01:23:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-05-15T01:23:54+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-05-15T01:23:55+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-05-15T01:23:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-05-15T01:23:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-05-15T01:23:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 27
+2021-05-15T01:23:59+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-05-15T01:24:02+00:00 NOTICE product_submit.success :: addStoreProduct :: #27
+2021-05-15T01:24:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-05-15T01:24:48+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-05-15T01:24:57+00:00 NOTICE sync.completed :: Finished Sync :: Sat, May 15, 2021 1:24 AM (total time: 00:01:33)
+2021-05-15T01:25:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 74
+2021-05-15T01:25:33+00:00 NOTICE debug :: Order ID 74 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://localhost/joco-cups/joco-cups/wp-admin/admin-ajax.php
+        )
+
+)
+
+2021-05-15T01:26:25+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 609f1b7267c09
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 1b25672afe
+            [name] => JOCO cups
+            [domain] => http://localhost/joco-cups
+            [email_address] => abitech4real@gmail.com
+            [currency_code] => USD
+            [money_format] => $
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 08143206779
+            [address] => Array
+                (
+                    [address1] => 854 Avocado Ave
+                    [city] => Newport Beach
+                    [province] => CA
+                    [postal_code] => 92660
+                    [country] => US
+                    [country_code] => US
+                    [phone] => 08143206779
+                    [company] => JOCO cups
+                )
+
+        )
+
+)
+
+2021-05-15T01:26:30+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Sat, May 15, 2021 1:26 AM
+2021-05-15T01:26:33+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-05-15T01:26:52+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-05-15T01:26:53+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-05-15T01:26:53+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-05-15T01:26:53+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-05-15T01:26:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 27
+2021-05-15T01:26:57+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-05-15T01:27:01+00:00 NOTICE product_submit.success :: updateStoreProduct :: #27
+2021-05-15T01:27:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-05-15T01:27:28+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-05-15T01:27:37+00:00 NOTICE sync.completed :: Finished Sync :: Sat, May 15, 2021 1:27 AM (total time: 00:01:08)
+2021-05-15T01:27:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-05-15T01:27:59+00:00 NOTICE debug :: Order ID 73 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-05-15T01:28:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 73
+2021-05-15T01:28:33+00:00 NOTICE member.sync :: Updated Member abitech4real@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Test
+            [LNAME] => Test
+        )
+
+)
+
+2021-05-15T01:29:37+00:00 ERROR order_submit.error :: addStoreOrder :: #73 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/joco-cups/my-account/view-order/73/</p> on 1886 in C:\xampp\htdocs\joco-cups\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-15T06:34:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-05-15T06:34:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 75
+2021-05-15T06:34:32+00:00 NOTICE debug :: Order ID 75 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://localhost/joco-cups/joco-cups/checkout/order-received/74/?key=wc_order_NSPQdgxfxmvoS
+        )
+
+)
+
+2021-05-15T07:00:59+00:00 NOTICE member.sync :: Updated Member abitech4real@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Test
+            [LNAME] => Test
+        )
+
+)
+
+2021-05-15T07:03:28+00:00 ERROR api.list :: Error retrieving list for double_optin check
+2021-05-15T07:03:34+00:00 ERROR order_submit.error :: addStoreOrder :: #75 :: Error Code 500 :: CURL error :: OpenSSL SSL_connect: Connection was reset in connection to us10.api.mailchimp.com:443  on 1824 in C:\xampp\htdocs\joco-cups\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-15T07:19:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-05-15T07:19:50+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 76
+2021-05-15T07:20:01+00:00 NOTICE debug :: Order ID 76 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://localhost/joco-cups/joco-cups/checkout/order-received/75/?key=wc_order_6tv6me5HHBEgk
+        )
+
+)
+
+2021-05-15T07:20:49+00:00 NOTICE member.sync :: Updated Member abitech4real@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Test
+            [LNAME] => Test
+        )
+
+)
+
+2021-05-15T07:22:14+00:00 ERROR order_submit.error :: addStoreOrder :: #76 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/joco-cups/my-account/view-order/76/</p> on 1886 in C:\xampp\htdocs\joco-cups\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php

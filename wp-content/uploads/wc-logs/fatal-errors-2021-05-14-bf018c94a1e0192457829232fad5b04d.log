@@ -1,0 +1,8 @@
+2021-05-14T14:15:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\joco-cups\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-05-14T14:24:14+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 131072 bytes) in C:\xampp\htdocs\joco-cups\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-assets.php on line 302
+
+2021-05-14T15:15:41+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\joco-cups\wp-content\themes\storefront-child-theme-master\homepage.php on line 62
+
+2021-05-14T18:16:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\joco-cups\wp-includes\widgets\class-wp-widget-calendar.php on line 105
+

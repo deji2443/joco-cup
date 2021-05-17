@@ -1,0 +1,562 @@
+/*
+Theme Name:   	Storefront Child Theme
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+.col-full .page-id-6 {
+  max-width: inherit !important;
+  padding: inherit !important;
+}
+
+@media (max-width: 568px) {
+  .page-id-6 .col-full {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-id-6 .col-full {
+    padding: inherit !important;
+    max-width: initial !important;
+  }
+}
+
+.home.blog .site-header,
+.home.page:not(.page-template-template-homepage) .site-header,
+.home.post-type-archive-product .site-header {
+  margin-bottom: 0 !important;
+  padding: 2.617924em !important;
+}
+.site-footer {
+  padding: 2.617924em !important;
+}
+
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img {
+  height: auto;
+  min-height: 327px;
+}
+
+.page-id-6 .woocommerce-breadcrumb {
+  display: none;
+}
+
+.page-id-6 .storefront-breadcrumb {
+  padding: inherit !important;
+  margin: inherit !important;
+}
+body.page-id-6 {
+  background: #fff8ef !important;
+}
+.site-footer {
+  background-color: #373737 !important;
+  color: #a9a3a1 !important;
+}
+.site-footer a:not(.button):not(.components-button) {
+  color: #a9a3a1 !important;
+}
+
+.slide-overlay h2 {
+  color: #fff8ef;
+  line-height: 35px;
+  margin: 0px 0px 15px;
+  font-family: ff-meta-serif-web-pro, serif;
+  font-size: 32px;
+  font-weight: normal !important;
+  font-size: 48px;
+}
+.slide-overlay {
+  position: absolute;
+  top: 50%;
+  left: 180px;
+  transform: translateY(-50%);
+}
+.slide-overlay p {
+  color: #fff8ef;
+}
+
+.slide-overlay p {
+  clear: both;
+  margin: 10px 0px 0px;
+  float: left;
+}
+#homepage-slider .slide-overlay .button,
+#cobrand-header .slide-overlay .button {
+  clear: both;
+  margin-top: 25px;
+  float: left;
+}
+
+a.button-sandstone,
+.button-sandstone,
+.button-sandstone:hover {
+  background: transparent;
+  color: #fff8ef;
+  border-color: #fff8ef;
+  border: 1px solid #fff8ef;
+  margin-top: 7rem;
+  text-decoration: none;
+  /* line-height: 30px; */
+}
+a {
+  text-decoration: none !important;
+}
+.button-sandstone {
+  background: transparent;
+  color: #373737;
+  max-width: 200px;
+  width: 100%;
+  display: block;
+  line-height: 48px;
+  padding: 0 20px;
+  text-decoration: none;
+  border: 1px solid #373737;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0px;
+  outline: none !important;
+}
+
+h3 {
+  font-family: museo-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+a.button-sandstone:after,
+.button-sandstone:after {
+  /* background-color: #fff8ef; */
+  content: url("https://joco-cup.000webhostapp.com/wp-content/uploads/2021/05/icon-arrow-4.svg");
+  /* background-color: #373737; */
+  /* mask: url("http://localhost/joco-cups/wp-content/uploads/2021/05/icon-arrow.svg")
+    no-repeat 50% 50%; */
+  /* background-size: contain; */
+  width: 10px;
+  height: auto;
+  float: right;
+  display: inline;
+  color: white;
+  /* float: right; */
+  transition: all 0.3s ease-in-out;
+}
+h4,
+p,
+li,
+label,
+td,
+th,
+.woocommerce-info,
+address {
+  font-size: 15px;
+  line-height: 24px;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 48% !important;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -35.5% !important;
+  text-align: left !important;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-indicators {
+    bottom: 20px;
+    top: calc(100% - 200px) !important;
+  }
+}
+
+.carousel-indicators li {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+body {
+  background: #fff8ef !important;
+}
+.col-sm-custom {
+  width: 20% !important;
+  margin-top: 4rem;
+}
+.hero-carousel {
+  display: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: transparent !important;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.img__description {
+  position: absolute;
+  /* top: 0; */
+  bottom: -12px;
+  left: 16px;
+  right: 0;
+  /* background: rgba(29, 106, 154, 0.72); */
+  color: #373737;
+  visibility: hidden;
+  font-weight: bold;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover {
+  background: #f7eee5;
+  padding-bottom: 4rem;
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.testimonial {
+  text-align: center;
+}
+.full-row {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  clear: both;
+  margin: 60px 0px;
+}
+.testimonial h2 {
+  max-width: 50%;
+  margin: 0 auto 35px;
+}
+.testimonial h2:before {
+  content: " ";
+  background: url(https://joco-cup.000webhostapp.com/wp-content/uploads/2021/05/icon-quotes.png)
+    center center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 14px;
+  display: block;
+  margin-bottom: 35px;
+}
+.testimonial h6 {
+  font-size: 15px;
+}
+
+a.button-sandstone-two,
+.button-sandstone-two,
+.button-sandstone-two:hover {
+  background: transparent;
+  color: #373737;
+  border-color: #373737;
+  border: 1px solid #373737;
+  margin-top: 3rem;
+  text-decoration: none;
+  /* line-height: 30px; */
+}
+
+.button-sandstone-two {
+  background: transparent;
+  color: #373737;
+  max-width: 200px;
+  width: 100%;
+  display: block;
+  line-height: 48px;
+  padding: 0 20px;
+  text-decoration: none;
+  border: 1px solid #373737;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0px;
+  outline: none !important;
+}
+
+a.button-sandstone-two:after,
+.button-sandstone-two:after {
+  /* background-color: #fff8ef; */
+  content: url("https://joco-cup.000webhostapp.com/wp-content/uploads/2021/05/icon-arrow.svg");
+  /* background-color: #373737; */
+  /* mask: url("http://localhost/joco-cups/wp-content/uploads/2021/05/icon-arrow.svg")
+    no-repeat 50% 50%; */
+  /* background-size: contain; */
+  width: 10px;
+  height: auto;
+  float: right;
+  display: inline;
+  color: #373737;
+  /* float: right; */
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 767px) {
+  .inner {
+    padding: 100px 10%;
+    position: relative;
+    top: 0;
+    transform: translateY(0%);
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .inner p {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.reorder.home-video-ttt {
+  background: #f2e8dd;
+}
+@media (min-width: 768px) {
+  #instagram ul {
+    position: absolute;
+    right: 75px;
+    display: inline;
+  }
+}
+ul,
+li {
+  list-style-type: none;
+}
+.col-sm-1-custom {
+  width: 5% !important;
+  margin-bottom: 8rem;
+}
+.col-sm-2-custom {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.site-footer .widget .widget-title,
+.site-footer .widget .widgettitle {
+  color: #a9a3a1 !important;
+}
+.site-info {
+  display: none;
+}
+#mega-menu-wrap-primary
+  #mega-menu-primary
+  > li.mega-menu-item
+  > a.mega-menu-link,
+#mega-menu-wrap-primary
+  #mega-menu-primary
+  > li.mega-menu-item
+  > a.mega-menu-link:hover,
+#mega-menu-wrap-primary
+  #mega-menu-primary
+  > li.mega-menu-item
+  > a.mega-menu-link:focus {
+  color: #333333;
+}
+.page-id-13
+  #mega-menu-wrap-primary
+  #mega-menu-primary
+  > li.mega-menu-item
+  > a.mega-menu-link,
+.page-id-6
+  #mega-menu-wrap-primary
+  #mega-menu-primary
+  > li.mega-menu-item
+  > a.mega-menu-link,
+.page-id-13 .main-navigation ul li a,
+.page-id-6 .main-navigation ul li a {
+  color: #fff8ef !important;
+}
+@media (max-width: 768px) {
+  .home-slide {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translateY(-50%);
+  }
+
+  div#instagram {
+    margin: 2rem;
+  }
+
+  .slide-overlay h2 {
+    font-size: 25px;
+  }
+  a.button-sandstone,
+  .button-sandstone,
+  .button-sandstone:hover {
+    margin-top: 10rem;
+  }
+  .col-sm-custom {
+    display: inline-block;
+    width: 18% !important;
+    margin-top: 4rem;
+  }
+
+  .img__description {
+    position: absolute;
+    /* top: 0; */
+    left: 5px;
+    bottom: -8px;
+    font-size: 0.5rem;
+    line-height: 1;
+    text-align: left;
+  }
+  .h2,
+  h2 {
+    font-size: 20px !important;
+  }
+
+  .inner img {
+    width: 15rem;
+    margin: auto;
+    padding: 10px 0px 12px;
+  }
+  .inner {
+    margin-bottom: 4rem;
+    margin: 4rem;
+  }
+
+  .col-sm-2-custom {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    display: inline;
+  }
+  .col-sm-2-custom img {
+    height: 6rem;
+    display: inline;
+  }
+
+  .col-sm-1-custom {
+    width: auto !important;
+    margin-bottom: 0rem;
+  }
+
+  .col-sm-1-custom img {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .col-full .page-id-6 {
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 0;
+  }
+}
+
+.site-header .site-branding img {
+  height: auto;
+  max-width: 60px !important;
+  max-height: 60px !important;
+}
+@media (min-width: 768px) {
+  /*.home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {*/
+  /*    margin-bottom: 0 !important;*/
+  /*    background: transparent !important;*/
+  /*    padding-left: 4.3em !important;*/
+  /*    padding-right: 4.3em !important;*/
+  /*    padding-top: 0em !important;*/
+  /*    padding-bottom: 0em!important;*/
+  /*}*/
+
+  /*.home-let{*/
+  /*        top: -299px;*/
+  /*    position: relative;*/
+  /*}*/
+}
+@media (min-width: 768px) {
+  .home.blog .site-header,
+  .home.page:not(.page-template-template-homepage) .site-header,
+  .home.post-type-archive-product .site-header {
+    margin-bottom: 0 !important;
+    background: transparent !important;
+    padding-left: 4.3em !important;
+    padding-right: 4.3em !important;
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+  }
+}
+
+#reviews {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .page-id-13 .col-full {
+    max-width: initial;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    box-sizing: content-box;
+  }
+}
+
+div#homeCarousel {
+  top: -134px;
+}
+.woocommerce-active .site-header .site-branding {
+  display: none;
+}
+.woocommerce-active .site-header .site-search {
+  display: none;
+}
+@media (min-width: 768px) {
+  .page-id-13 .site-header-cart .cart-contents,
+  .page-id-6 .site-header-cart .cart-contents {
+    color: #fff8ef !important;
+  }
+}
+
+div#myCarousel\ carouselTwo {
+  top: -90px;
+}
+
+@media (max-width: 568px) {
+  .page-id-13 .col-full {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  div#homeCarousel {
+    top: 0px;
+  }
+  div#myCarousel\ carouselTwo {
+    top: 0px;
+  }
+  .page-id-6 .main-navigation ul li a {
+    color: #333333 !important;
+  }
+}
+
+img.desktop-home-logo {
+  height: 5rem;
+  padding-top: 1.5rem;
+}
+/* img.desktop-home-logo {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  position: fixed;
+  margin: auto;
+  left: 5rem;
+} */
